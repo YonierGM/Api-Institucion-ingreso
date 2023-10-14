@@ -7,14 +7,14 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import jakarta.persistence.*;
+import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
 @Entity
 @Table(name = "tipo_documento")
 
-@Getter
-@Setter
+@Data
 public class TipoDocumento implements Serializable{
 	/**
 	 * 

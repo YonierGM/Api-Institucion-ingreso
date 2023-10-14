@@ -10,7 +10,6 @@ import java.io.Serializable;
 @Table(name = "estudiante_asignatura")
 
 @Data
-
 public class EstudianteAsignatura implements Serializable {
 
     @EmbeddedId

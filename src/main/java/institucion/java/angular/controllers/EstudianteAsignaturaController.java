@@ -34,7 +34,7 @@ public class EstudianteAsignaturaController {
         return estudianteAsignaturaService.findAll(pageable);
     }
 
-    @PostMapping("/estudianteasignatura")
+    @PostMapping("/estudianteAsignatura")
     // RequestBody ya que la respuesta es en formato json
     public ResponseEntity<?> createEstudianteAsignatura(@Valid @RequestBody EstudianteAsignatura estudiantea, BindingResult result) {
 

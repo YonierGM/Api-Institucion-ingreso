@@ -1,7 +1,6 @@
 package institucion.java.angular.controllers;
 
 import institucion.java.angular.models.entity.Docente;
-import institucion.java.angular.models.entity.Estudiante;
 import institucion.java.angular.models.services.IdocenteService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;

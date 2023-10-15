@@ -1,5 +1,4 @@
 package institucion.java.angular.controllers;
-import institucion.java.angular.models.entity.Docente;
 import institucion.java.angular.models.entity.EstudianteAsignatura;
 import institucion.java.angular.models.services.IestudianteAsignaturaService;
 import org.springframework.beans.factory.annotation.Autowired;

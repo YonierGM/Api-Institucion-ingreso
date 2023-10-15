@@ -1,13 +1,17 @@
 institucion\java\angular\controllers\EstudianteAsignaturaController.class
 institucion\java\angular\models\services\IdocenteServiceImpl.class
 institucion\java\angular\models\dao\IasignaturaDao.class
+institucion\java\angular\models\services\UsuariosServiceImpl.class
 institucion\java\angular\models\entity\EstudianteAsignatura.class
 institucion\java\angular\models\services\EstudianteAsignaturaServiceImpl.class
 institucion\java\angular\models\services\IasignaturaService.class
+institucion\java\angular\models\dao\IusuariosDao.class
 institucion\java\angular\models\dao\IestudianteAsignaturaDao.class
 institucion\java\angular\models\entity\Asignatura.class
 institucion\java\angular\InstitucionApplication.class
+institucion\java\angular\models\services\IusuariosService.class
 institucion\java\angular\models\services\EstudianteServiceImpl.class
+institucion\java\angular\models\entity\Usuarios.class
 institucion\java\angular\models\services\AsignaturaServiceImpl.class
 institucion\java\angular\models\services\IdocenteService.class
 institucion\java\angular\models\services\IestudianteService.class
@@ -23,4 +27,5 @@ institucion\java\angular\controllers\AsignaturaController.class
 institucion\java\angular\models\dao\IdocenteDao.class
 institucion\java\angular\models\entity\Grado.class
 institucion\java\angular\controllers\EstudianteController.class
+institucion\java\angular\controllers\UsuariosController.class
 institucion\java\angular\models\entity\EstudianteAsignaturaPK.class

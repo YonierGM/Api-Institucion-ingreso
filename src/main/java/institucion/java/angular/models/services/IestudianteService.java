@@ -12,7 +12,7 @@ public interface IestudianteService {
 
     public Page<Estudiante> findAll(Pageable pageable);
 
-        public List<Estudiante> findAll();
+    public List<Estudiante> findAll();
 
     public Estudiante findById(Integer id);
 

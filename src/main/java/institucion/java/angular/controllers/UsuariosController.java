@@ -126,7 +126,7 @@ public class UsuariosController {
 
         try {
 
-            usuarioActual.setUsername(usuario.getUsername());
+            usuarioActual.setPassword(usuario.getPassword());
             usuarioActual.setEmail(usuario.getEmail());
 
             usuarioUpdate = usuariosService.saveUsuarios(usuarioActual);

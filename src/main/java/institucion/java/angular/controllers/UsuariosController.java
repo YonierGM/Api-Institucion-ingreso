@@ -1,5 +1,6 @@
 package institucion.java.angular.controllers;
 
+import institucion.java.angular.models.dao.IusuariosDao;
 import institucion.java.angular.models.entity.Usuarios;
 import institucion.java.angular.models.services.IusuariosService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +17,7 @@ import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.stream.Collectors;
 
 @CrossOrigin(origins = { "http://localhost:4200" })
@@ -26,9 +28,17 @@ public class UsuariosController {
     @Autowired
     private IusuariosService usuariosService;
 
+    @Autowired
+    private IusuariosDao iusuariosDao;
+
     @GetMapping("/usuarios")
     public List<Usuarios> index() {
         return usuariosService.findAll();
+    }
+
+    @GetMapping("/usuario/{email}/{password}")
+    public List<Usuarios> index2(@PathVariable String email, @PathVariable String password) {
+        return iusuariosDao.searcUser(email, password);
     }
 
     @GetMapping("/usuarios/page/{page}")

@@ -19,9 +19,7 @@ public class Usuarios implements Serializable {
     private long id;
 
     @NotNull
-    @Size(min = 4, max = 12)
     private String password;
     @NotNull
-    @Email
     private String email;
 }
